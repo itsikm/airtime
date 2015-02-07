@@ -138,7 +138,6 @@ function checkThisRoom(roomId, callback) {
         }
         else {
             challengeCode.push(body);
-            challengeCode.splice(body.order, 0, body.writing);
         }
         callback();
     });
