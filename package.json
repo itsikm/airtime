@@ -1,0 +1,17 @@
+{
+  "name": "airtime",
+  "description": "Airtime Challenge",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsikm/airtime.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "async": "^0.9.0",
+    "request": "^2.53.0"
+  }
+}
