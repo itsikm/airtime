@@ -16,7 +16,7 @@ function createRequest(url, callback) {
     request.get({
         url: 'http://challenge2.airtime.com:7182' + url,
         headers: {
-            'X-Labyrinth-Email': 'extropia@gmail.com'
+            'X-Labyrinth-Email': 'itsik@airtime-challenge.com'
         },
         json: true
     }, callback);
@@ -27,7 +27,7 @@ function createPostRequest(url, postData, callback) {
         url: 'http://challenge2.airtime.com:7182' + url,
         body: postData,
         headers: {
-            'X-Labyrinth-Email': 'extropia@gmail.com'
+            'X-Labyrinth-Email': 'itsik@airtime-challenge.com'
         },
         json: true
     }, callback);
