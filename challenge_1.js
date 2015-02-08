@@ -8,7 +8,7 @@ var roomsBroken = [];
 var challengeCode = [];
 
 /**
- * Create new API request
+ * Create new GET API request
  * @param {string} url - labyrinth api url
  * @param {function} callback
  */
@@ -22,6 +22,12 @@ function createRequest(url, callback) {
     }, callback);
 }
 
+/**
+ * Create new POST API request
+ * @param {string} url - labyrinth api url
+ * @param {object} postData - data to post
+ * @param {function} callback
+ */
 function createPostRequest(url, postData, callback) {
     request.post({
         url: 'http://challenge2.airtime.com:7182' + url,
